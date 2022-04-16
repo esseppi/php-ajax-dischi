@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #2e3a46;
+}
+
+header i {
+  margin: 1rem;
+  font-size: 50px;
+  color: #1ed65f;
+}
+
+main {
+  min-height: 100%;
+  background-color: #1e2d3b;
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+
+.album {
+  max-width: 330px;
+  height: 100%;
+  border-radius: 1rem;
+  background-color: #2e3a46;
+  color: white;
+}
+.album-info {
+  height: calc(100% - 214px);
+}
+.album-poster {
+  max-width: 300px;
+  height: 214px;
+}
+.album-poster img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
