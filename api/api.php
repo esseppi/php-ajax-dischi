@@ -1,5 +1,5 @@
 <?php
-include_once './data.php';
+include_once __DIR__ . '/../database/data.php';
 $genre = strtolower($_GET['search'] ?? '');
 
 if ($genre) {
