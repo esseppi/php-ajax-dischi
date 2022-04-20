@@ -9,6 +9,7 @@ var app = new Vue({
       axios
         .get(`${this.apiUrl}?search=${event.target.value}`)
         .then((response) => (this.albums = response.data));
+      console.log(this.albums);
     },
   },
   created() {
