@@ -1,7 +1,7 @@
 var app = new Vue({
   el: '#app',
   data: {
-    apiUrl: '/../api/api.php',
+    apiUrl: '../database/api.php',
     albums: [],
   },
   methods: {
