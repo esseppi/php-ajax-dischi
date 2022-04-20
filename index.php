@@ -13,9 +13,18 @@
 </head>
 
 <body>
-    <header class="sticky-top">
+    <header class="sticky-top d-flex justify-content-between">
         <div class="logo p-1">
             <img src="https://logospng.org/download/spotify/logo-spotify-icon-4096.png" alt="" srcset="">
+        </div>
+        <div>
+            <select @change="search" name="" id="">
+                <option value="all"></option>
+                <option value="jazz">Jazz</option>
+                <option value="pop">Pop</option>
+                <option value="rock">Rock</option>
+                <option value="metal">Metal</option>
+            </select>
         </div>
     </header>
     <main class="p-5">
